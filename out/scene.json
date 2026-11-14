@@ -1,0 +1,356 @@
+{
+  "environment": {
+    "slug": "ryosukes-workspace/envs/default-environment",
+    "uuid": "fe5a3155-fb05-4c52-8eb4-549dcbdfac28"
+  },
+  "exported_at": "2026-11-14T08:29:32+00:00",
+  "frame": "Z-up, metres; center = geometric centre, size = full extent (x, y, z); floor top at z = 0",
+  "objects": [
+    {
+      "name": "floor",
+      "uuid": "ab6731c0-6aea-4181-992f-cf71ab67f149",
+      "asset": "cube",
+      "group": "concourse",
+      "shape": "box",
+      "static": true,
+      "center": [
+        0.0,
+        0.0,
+        -0.025
+      ],
+      "size": [
+        30.0,
+        12.0,
+        0.05
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "wall_north",
+      "uuid": "27e00f61-50e3-4cd1-bf1b-3f4f1f4da5c8",
+      "asset": "cube",
+      "group": "concourse",
+      "shape": "box",
+      "static": true,
+      "center": [
+        0.0,
+        6.1,
+        1.5
+      ],
+      "size": [
+        30.0,
+        0.2,
+        3.0
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "wall_south",
+      "uuid": "20c132b2-c14c-4857-9f5e-6be57094a09c",
+      "asset": "cube",
+      "group": "concourse",
+      "shape": "box",
+      "static": true,
+      "center": [
+        0.0,
+        -6.1,
+        1.5
+      ],
+      "size": [
+        30.0,
+        0.2,
+        3.0
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "wall_east",
+      "uuid": "708f86c1-c690-4593-889c-df278c48954f",
+      "asset": "cube",
+      "group": "concourse",
+      "shape": "box",
+      "static": true,
+      "center": [
+        15.1,
+        0.0,
+        1.5
+      ],
+      "size": [
+        0.2,
+        12.4,
+        3.0
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "pillar_1",
+      "uuid": "043ebb75-1ec0-461c-8ff9-02775faf3b66",
+      "asset": "cylinder",
+      "group": "obstacles",
+      "shape": "circle",
+      "static": true,
+      "center": [
+        -8.0,
+        2.0,
+        1.5
+      ],
+      "size": [
+        0.6,
+        0.6,
+        3.0
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "pillar_2",
+      "uuid": "40acf912-4cd7-45a2-99da-2cf8c54844ad",
+      "asset": "cylinder",
+      "group": "obstacles",
+      "shape": "circle",
+      "static": true,
+      "center": [
+        0.0,
+        2.0,
+        1.5
+      ],
+      "size": [
+        0.6,
+        0.6,
+        3.0
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "pillar_3",
+      "uuid": "01142541-8b43-4851-96e4-0b34391422f7",
+      "asset": "cylinder",
+      "group": "obstacles",
+      "shape": "circle",
+      "static": true,
+      "center": [
+        8.0,
+        2.0,
+        1.5
+      ],
+      "size": [
+        0.6,
+        0.6,
+        3.0
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "bench_1",
+      "uuid": "03af3aa1-9700-41dd-8e11-6f70a4df99b0",
+      "asset": "cube",
+      "group": "obstacles",
+      "shape": "box",
+      "static": true,
+      "center": [
+        -4.0,
+        -4.0,
+        0.225
+      ],
+      "size": [
+        2.0,
+        0.6,
+        0.45
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "bench_2",
+      "uuid": "3853ead8-13e0-4a43-acf9-e1438ae7fa16",
+      "asset": "cube",
+      "group": "obstacles",
+      "shape": "box",
+      "static": true,
+      "center": [
+        4.0,
+        -4.0,
+        0.225
+      ],
+      "size": [
+        2.0,
+        0.6,
+        0.45
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "luggage_pile",
+      "uuid": "fa4319db-0824-4f29-9b98-957bdb196636",
+      "asset": "cube",
+      "group": "obstacles",
+      "shape": "box",
+      "static": true,
+      "center": [
+        12.0,
+        -1.0,
+        0.4
+      ],
+      "size": [
+        1.0,
+        0.8,
+        0.8
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "follow_cart",
+      "uuid": "e2b55553-aaf0-4603-a3b8-bf5b1f025e6d",
+      "asset": "mir250",
+      "group": "actors",
+      "shape": "box",
+      "static": false,
+      "center": [
+        -13.5,
+        0.0,
+        0.155
+      ],
+      "size": [
+        0.93,
+        0.62,
+        0.31
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "traveller",
+      "uuid": "cab659a3-b5c5-4b5c-9c4f-0700b2f00ff7",
+      "asset": "h1",
+      "group": "actors",
+      "shape": "circle",
+      "static": false,
+      "center": [
+        -12.0,
+        0.0,
+        0.9
+      ],
+      "size": [
+        0.6,
+        0.56,
+        1.8
+      ],
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "ped_1",
+      "uuid": "15fbe5cb-f087-4c94-9491-38a978c2097f",
+      "asset": "h1",
+      "group": "actors",
+      "shape": "circle",
+      "static": false,
+      "center": [
+        -6.0,
+        3.5,
+        0.9
+      ],
+      "size": [
+        0.6,
+        0.56,
+        1.8
+      ],
+      "yaw_deg": -90.0
+    },
+    {
+      "name": "ped_2",
+      "uuid": "7e5bb1fd-a14a-46fd-817e-ff181be6e79d",
+      "asset": "h1",
+      "group": "actors",
+      "shape": "circle",
+      "static": false,
+      "center": [
+        2.0,
+        -2.5,
+        0.9
+      ],
+      "size": [
+        0.6,
+        0.56,
+        1.8
+      ],
+      "yaw_deg": 90.0
+    },
+    {
+      "name": "ped_3",
+      "uuid": "ba920596-10dc-4298-8bd1-df807fdb5033",
+      "asset": "h1",
+      "group": "actors",
+      "shape": "circle",
+      "static": false,
+      "center": [
+        6.0,
+        4.0,
+        0.9
+      ],
+      "size": [
+        0.6,
+        0.56,
+        1.8
+      ],
+      "yaw_deg": 180.0
+    },
+    {
+      "name": "ped_4",
+      "uuid": "a761c7a8-9e86-4a3c-89de-43277ef7678b",
+      "asset": "h1",
+      "group": "actors",
+      "shape": "circle",
+      "static": false,
+      "center": [
+        10.0,
+        -3.5,
+        0.9
+      ],
+      "size": [
+        0.6,
+        0.56,
+        1.8
+      ],
+      "yaw_deg": 135.0
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "wp_1",
+      "x": -12.0,
+      "y": 0.0
+    },
+    {
+      "name": "wp_2",
+      "x": -9.0,
+      "y": 0.0
+    },
+    {
+      "name": "wp_3",
+      "x": -5.0,
+      "y": -1.0
+    },
+    {
+      "name": "wp_4",
+      "x": -1.0,
+      "y": 0.2
+    },
+    {
+      "name": "wp_5",
+      "x": 3.0,
+      "y": -1.2
+    },
+    {
+      "name": "wp_6",
+      "x": 7.0,
+      "y": 0.0
+    },
+    {
+      "name": "wp_7",
+      "x": 10.0,
+      "y": 1.0
+    },
+    {
+      "name": "wp_8",
+      "x": 13.0,
+      "y": 2.5
+    }
+  ]
+}
