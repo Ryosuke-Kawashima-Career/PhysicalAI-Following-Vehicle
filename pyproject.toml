@@ -1,0 +1,13 @@
+[project]
+name = "followme"
+version = "0.1.0"
+description = "Follow-me luggage cart at the airport (Cyberwave digital twin MVP)"
+requires-python = ">=3.11"
+dependencies = ["numpy", "matplotlib", "pillow", "python-dotenv", "cyberwave"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
